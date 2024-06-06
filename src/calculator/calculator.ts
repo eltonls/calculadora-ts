@@ -1,6 +1,8 @@
 class Calculator {
-   
-    public name(a: number, b: number): number {
+    public division(a: number, b: number): number {
         return a / b; 
+     }
+    public add(a: number, b: number): number {
+        return a + b; 
     }
 }
