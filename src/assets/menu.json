@@ -1,0 +1,37 @@
+{
+  "calculator_menu": {
+    "operations": [
+      {
+        "name": "Adição",
+        "symbol": "+",
+        "input_type": "two_numbers",
+        "description": "Adiciona dois números"
+      },
+      {
+        "name": "Subtração",
+        "symbol": "-",
+        "input_type": "two_numbers",
+        "description": "Subtrai o segundo número do primeiro"
+      },
+      {
+        "name": "Multiplicação",
+        "symbol": "*",
+        "input_type": "two_numbers",
+        "description": "Multiplica dois números"
+      },
+      {
+        "name": "Division",
+        "symbol": "/",
+        "input_type": "two_numbers",
+        "description": "Divide o primeiro número pelo segundo"
+      }
+    ],
+    "input_prompts": {
+      "two_numbers": {
+        "prompt_1": "Digite o primeiro número: ",
+        "prompt_2": "Digite o segundo número: "
+      }
+    }
+  }
+}
+

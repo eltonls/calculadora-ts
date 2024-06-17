@@ -1,17 +1,12 @@
-import { Menu } from "./menu/menu";
+import { CalculatorController } from "./controller/CalculatorController";
 
 class Main {
-  private m1: Menu;
+  private CalculatorController = new CalculatorController();
 
-  constructor() {
-    this.m1 = new Menu();
-  }
-
-  public main() {
-    this.m1.showMenu();
+  public start() {
+    this.CalculatorController.start();
   }
 }
 
 const main = new Main();
-
-main.main();
+main.start();
